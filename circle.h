@@ -10,7 +10,7 @@
 #define LOG(x) std::cout << x << std::endl
 #define ASSERT(x, message) if(x) { LOG("Assertion failed!"); LOG(message); __debugbreak(); }
 
-static int PI = 3.1415;
+static float PI = 3.1415;
 class Circle
 {
 public:
